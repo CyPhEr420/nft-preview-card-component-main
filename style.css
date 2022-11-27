@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+}
+
+p {
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 70%);
+}
+
+.nft-card {
+  width: 32rem;
+  padding: 2rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1rem;
+}
+
+.nft-img {
+  width: 100%;
+}
+
+.nft-img img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.nft-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+  margin: 2.3rem auto;
+}
+
+.nft-name {
+  color: hsl(0, 0%, 95%);
+}
+
+.nft-data-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nft-amount {
+  color: hsl(178, 100%, 50%);
+}
+
+.nft-amount,
+.nft-date,
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+  border-bottom: none;
+}
+.user-info {
+  margin-top: 1.3rem;
+  gap: 1rem;
+}
+
+.user-img {
+  width: 4rem;
+}
+
+.nft-creator span {
+  color: hsl(0, 0%, 90%);
+}
